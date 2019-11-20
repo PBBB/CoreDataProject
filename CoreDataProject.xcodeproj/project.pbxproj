@@ -14,6 +14,8 @@
 		2B412D3D2384F2150050053E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B412D3C2384F2150050053E /* Assets.xcassets */; };
 		2B412D402384F2150050053E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B412D3F2384F2150050053E /* Preview Assets.xcassets */; };
 		2B412D432384F2150050053E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B412D412384F2150050053E /* LaunchScreen.storyboard */; };
+		2B412D4C2384F3000050053E /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B412D4A2384F3000050053E /* Movie+CoreDataClass.swift */; };
+		2B412D4D2384F3000050053E /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B412D4B2384F3000050053E /* Movie+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		2B412D3F2384F2150050053E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2B412D422384F2150050053E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B412D442384F2150050053E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B412D4A2384F3000050053E /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2B412D4B2384F3000050053E /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		2B412D322384F2130050053E /* CoreDataProject */ = {
 			isa = PBXGroup;
 			children = (
+				2B412D4A2384F3000050053E /* Movie+CoreDataClass.swift */,
+				2B412D4B2384F3000050053E /* Movie+CoreDataProperties.swift */,
 				2B412D332384F2130050053E /* AppDelegate.swift */,
 				2B412D352384F2130050053E /* SceneDelegate.swift */,
 				2B412D3A2384F2130050053E /* ContentView.swift */,
@@ -152,6 +158,8 @@
 				2B412D342384F2130050053E /* AppDelegate.swift in Sources */,
 				2B412D362384F2130050053E /* SceneDelegate.swift in Sources */,
 				2B412D3B2384F2130050053E /* ContentView.swift in Sources */,
+				2B412D4C2384F3000050053E /* Movie+CoreDataClass.swift in Sources */,
+				2B412D4D2384F3000050053E /* Movie+CoreDataProperties.swift in Sources */,
 				2B412D392384F2130050053E /* CoreDataProject.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
